@@ -1,7 +1,7 @@
 <h1 align="center"> Crud Angular Simples </h1>
 
 <div align="center">
-    <img src="DOC/resultado.png" alt="imagem-projeto" width="600" height="auto">
+    <img src="DOC/resultado-final.png" alt="imagem-projeto" width="600" height="auto">
 </div>
 
 
