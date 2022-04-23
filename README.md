@@ -1,27 +1,74 @@
-# Escola
+<h1 align="center"> Crud Angular Simples </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+<div align="center">
+    <img src="DOC/resultado.jpg" alt="imagem-site" width="600" height="auto">
+</div>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Projeto Crud (Create, Read, Update, Delete) de alunos
 
-## Code scaffolding
+## Descrição
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto ser baseia em um CRUD feito utilizando a tecnologia Angular consumindo uma API Rest que pode ser encontrada nesse mesmo repositorio, A ideia do sistema é apenas mostras as 4 funcionalidades basicas encontradas em todos os sistemas na internet e intranet atualamente. não foi feito de um layout ou designer do mesmo.  
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalação Local
 
-## Running unit tests
+Para executar esse projeto você precisara do  [Node](https://nodejs.org/en/).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Por meio dele sera baixado todas as depedencias do projeto, depois de instalado execute os comandos abaixo na linha do terminal.
 
-## Running end-to-end tests
+Nota: todos os comandos abaixo precisão ser executados pelo terminal.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1) Execute o comando abaixo na raiz do projeto
 
-## Further help
+``` npm install```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2) Instale o [Json Server](https://www.npmjs.com/package/json-server) em seu computador com o comando abaixo.
+
+``` npm install -g json-server ```
+
+2) Entre na pasta 'api_angular' e execute o comando abaixo.
+
+``` json-server alunos.json ```
+
+3) Volte na raiz do projeto e execute o comando abaixo.
+
+``` ng serve ```
+
+4) Acesse o link http://localhost:4200/ em seu navegador para poder ver o projeto. 
+
+
+## Status do Projeto
+
+**Concluido**: O projeto esta terminado, não havera futuras alterações de funcionalidade.
+
+
+## Construído com
+
+* [Angular](https://angular.io/) - Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu.
+
+
+## Versão das Linguagens e Framework
+
+* Angular - 13.3.3
+* Angular CLI - 13.3.3
+
+
+## Autor
+
+* **Cesar dos Santos de Almeida** - *responsável pela construção e desenvolvimento do projeto*
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - consulte o arquivo  [LICENSE.md](LICENSE.md) para obter detalhes
+
+
+## Links
+
+* [Video Mensionado](https://www.youtube.com/watch?v=Ep0GPo1N3Qc) - Link do video no youtuber
+
+
+
+
+
